@@ -20,4 +20,10 @@ public class HelloWorldTest {
                 "Hello, Brian!",
                 greeting);
     }
+
+    @Test
+    public void testOfCISystemWithFailingTest() {
+
+        Assert.fail("Example of a failing test");
+    }
 }
